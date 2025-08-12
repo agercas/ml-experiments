@@ -1,9 +1,5 @@
-.PHONY: check format
+.PHONY: format
 
-# Check code with ruff
-check:
-	poetry run ruff check .
-
-# Format code with ruff
 format:
+	poetry run ruff check --fix .
 	poetry run ruff format .
