@@ -13,6 +13,9 @@ Solutions to HF audio course exercises, training and fine-tuning various audio m
 The problem is a variation of the game Semantle, where the goal is to identify a sequence of words. Each guess returns a similarity score indicating how close the guess is to the correct sequence. 
 The solution involves an algorithmic search using word embedding models, by iterating over the closest words (based on embeddings) in the direction that improves the similarity score. 
 
+## MCQA Agents (Mutiple Choice Question Answering)
+The problem is to answer multiple choice questions using a provided text. Implemented several agents using tiny LLMs and optionally RAG and CoT.
+
 ## Qualification Extraction
 The problem is to identify academic qualificaitons mentioned in text snippets. 
 The solution includes a baseline based on regex, two fine-tuned models based on BERT variations as well as using a pretrained cross-encoder model.
