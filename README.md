@@ -18,7 +18,7 @@ The problem is a variation of the game Semantle, where the goal is to identify a
 The solution involves an algorithmic search using word embedding models, by iterating over the closest words (based on embeddings) in the direction that improves the similarity score. 
 
 ## MCQA Agents (Mutiple Choice Question Answering)
-The problem is to answer multiple choice questions using a provided text. Implemented several agents using tiny LLMs and optionally RAG and CoT.
+A collection of approaches for answering multiple-choice text comprehension questions based on a provided text using LLMs with retrieval and reasoning techniques. Includes implementations with very lightweight LLMs, retrieval-augmented generation (RAG), and reasoning strategies such as chain-of-thought (CoT).
 
 ## Qualification Extraction
 The problem is to identify academic qualificaitons mentioned in text snippets. 
